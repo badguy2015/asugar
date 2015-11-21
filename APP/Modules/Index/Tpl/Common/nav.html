@@ -1,0 +1,76 @@
+</head>
+<body>
+<!--头部-->
+	<div class='top-list-wrap'>
+		<div class='top-list' style="display:none;">
+			<ul class='l-list'>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+			</ul>
+			<ul class='r-list'>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class='top-search-wrap'>
+		<div class='top-search'>
+			<!--LOGO-->
+			<!--<a href="http://www.xsphp.com" target='_blank' class='logo'>-->
+				<!--<img src="__PUBLIC__/Images/logo.png"/>-->
+			<!--</a>-->
+			<!--<div class='search-wrap'>-->
+				<!--<form action="" method='get'>-->
+					<!--<input type="text" name='keyword' class='search-content'/>-->
+					<!--<input type="submit" name='search' value='搜索'/>-->
+				<!--</form>-->
+			<!--</div>-->
+			<!--登陆跳转页-->
+			<a href="{:U('/'.'Admin/')}"><p style="color:white;text-align:right;">登陆</p></a>
+		</div>
+	</div>
+	<div class='top-nav-wrap'>
+		<ul class='nav-lv1'>
+			<li class='nav-lv1-li'>
+				<!--<a href="__ROOT__" class='top-cate'>首页</a>-->
+				<a href="<?php echo 'http://'.$_SERVER['SERVER_NAME']; ?>" class='top-cate'>首页</a>
+			</li>
+			<li class='nav-lv1-li'>
+				<!--<a href="__ROOT__" class='top-cate'>首页</a>-->
+				<a href="Index/Alasugar/index" class='top-cate'>L-阿拉伯糖</a>
+			</li>
+			<li class='nav-lv1-li'>
+				<!--<a href="__ROOT__" class='top-cate'>首页</a>-->
+				<a href="/c_21.html" class='top-cate'>新闻资讯</a>
+			</li>
+			<li class='nav-lv1-li'>
+				<!--<a href="__ROOT__" class='top-cate'>首页</a>-->
+				<a href="/c_22.html" class='top-cate'>糖尿病课堂</a>
+			</li>
+			<li class='nav-lv1-li'>
+				<!--<a href="__ROOT__" class='top-cate'>首页</a>-->
+				<a href="/Index/Fangwei/index" class='top-cate'>授权/防伪查询</a>
+			</li>
+			<li class='nav-lv1-li'>
+				<!--<a href="__ROOT__" class='top-cate'>首页</a>-->
+				<a href="/Index/Yonghufangkui/index" class='top-cate'>用户反馈</a>
+			</li>
+			<li class='nav-lv1-li'>
+				<!--<a href="__ROOT__" class='top-cate'>首页</a>-->
+				<a href="/Index/Zaixiandinggou/index" class='top-cate'>在线订购</a>
+			</li>
+
+			<!--<nav limit='50' order='sort'>-->
+				<!--<li class='nav-lv1-li'>-->
+					<!--<a href="{:U('/c_'.$v["id"])}" class='top-cate'>{$v["name"]}</a>-->
+						<!--<ul>-->
+					<!--<foreach name='v["child"]' item='child' >-->
+							<!--<li><a href="{:U('/c_'.$child["id"])}">{$child["name"]}</a></li>-->
+					<!--</foreach>-->
+						<!--</ul>-->
+				<!--</li>-->
+			<!--</nav>-->
+
+		</ul>
+	</div>
